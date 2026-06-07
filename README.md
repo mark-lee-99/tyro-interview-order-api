@@ -3,7 +3,7 @@
 A simple Node.js + Express + MongoDB API built for a technical interview.  
 The API accepts orders and validates that the customer exists before saving.
 
-## 🚀 Features
+## Features
 
 - Offline‑friendly setup using MongoDB Community Server  
 - Clean MVC structure (models, controllers, routes)  
@@ -11,7 +11,7 @@ The API accepts orders and validates that the customer exists before saving.
 - Jest + Supertest test suite  
 - Fully version‑controlled with Git & GitHub  
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Node.js  
 - Express  
@@ -19,7 +19,7 @@ The API accepts orders and validates that the customer exists before saving.
 - Mongoose  
 - Jest + Supertest  
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Install dependencies
 
@@ -52,7 +52,7 @@ npm run dev
 npm test
 ```
 
-## 📬 API Endpoints
+## API Endpoints
 
 ### POST `/orders`
 
@@ -75,7 +75,7 @@ Create a new order.
 - `400` — Customer does not exist  
 - `400` — Invalid payload  
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 src/
@@ -93,7 +93,7 @@ tests/
   order.test.js
 ```
 
-## 🧪 Testing
+## Testing
 
 Jest + Supertest are used to test:
 
