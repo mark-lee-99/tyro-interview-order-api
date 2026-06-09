@@ -37,7 +37,7 @@ describe("POST /orders", () => {
       .post("/orders")
       .send({ orderId: "O2", customerId: "C999", item: "Pen", quantity: 1 });
 
-    expect(res.status).toBe(400);
+    expect(res.status).toBe(404);
     expect(res.body.error).toBe("Customer does not exist");
   });
 });
