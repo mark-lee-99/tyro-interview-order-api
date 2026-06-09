@@ -11,7 +11,7 @@ exports.createOrder = async (req, res) => {
 
     const customer = await Customer.findOne({ customerId });
     if (!customer) {
-      return res.status(400).json({ error: "Customer does not exist" });
+      return res.status(404).json({ error: "Customer does not exist" });
     }
 
     const order = await Order.create({ orderId, customerId, item, quantity });
