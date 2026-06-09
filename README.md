@@ -72,7 +72,7 @@ Create a new order.
 #### Responses
 
 - `201` — Order created  
-- `400` — Customer does not exist  
+- `404` — Customer does not exist  
 - `400` — Invalid payload  
 
 ## Project Structure
